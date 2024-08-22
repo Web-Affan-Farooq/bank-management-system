@@ -1,0 +1,12 @@
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+button:hover {
+    background: aqua;
+}
