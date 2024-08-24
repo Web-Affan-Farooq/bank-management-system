@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "Muhammad ",
+    "lastName": "Affan",
+    "gender": "male",
+    "age": "987",
+    "phoneNumber": "jfdolkjdslkjfkldsjfkld",
+    "email": "haffan.gfte@gmail.com",
+    "accountPasskey": "retretr"
+  },
+  {
+    "firstName": "Muhammad ",
+    "lastName": "Affan",
+    "gender": "male",
+    "age": "987",
+    "phoneNumber": "jfdolkjdslkjfkldsjfkld",
+    "email": "haffan.gfte@gmail.com",
+    "accountPasskey": "retretr"
+  }
+]
