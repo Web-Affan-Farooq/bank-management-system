@@ -3,18 +3,9 @@
     "firstName": "Muhammad ",
     "lastName": "Affan",
     "gender": "male",
-    "age": "987",
-    "phoneNumber": "jfdolkjdslkjfkldsjfkld",
-    "email": "haffan.gfte@gmail.com",
-    "accountPasskey": "retretr"
-  },
-  {
-    "firstName": "Muhammad ",
-    "lastName": "Affan",
-    "gender": "male",
-    "age": "987",
-    "phoneNumber": "jfdolkjdslkjfkldsjfkld",
-    "email": "haffan.gfte@gmail.com",
-    "accountPasskey": "retretr"
+    "age": "18",
+    "phoneNumber": "03312861014",
+    "email": "affanamir903@gmail.com",
+    "password": "Dell0022"
   }
 ]
