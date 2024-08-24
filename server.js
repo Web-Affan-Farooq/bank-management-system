@@ -23,6 +23,18 @@ app.get('/login.ejs', (req, res) => {
     res.render("login");
 });
 
+app.post('/login',(req,res) => {
+    let requestedEmail = req.body.email;  // email - password - readfile - convert data = parse data 
+    let requestedPassword = req.body.password; 
+    // console.log(email,password);
+    fs.readFile(path.join(__dirname,"accounts","data.txt"),(err,data) => {
+        if(err) throw err;
+        let convertData = JSON.parse(data);
+        let requiredAccount = convertData.find(account => account.password === requestedPassword);
+        res.render("home"); //send required account as the user data
+    })
+})
+
 app.get('/newUser.ejs', (req, res) => {
     res.render("newUser");
 });
